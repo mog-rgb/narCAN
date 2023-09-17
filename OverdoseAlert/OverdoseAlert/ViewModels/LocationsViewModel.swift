@@ -21,7 +21,7 @@ class LocationsViewModel: ObservableObject {
     
     let mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     
-    //3301 n charles st
+    
     
     init() {
         let locations = LocationsDataService.locations
